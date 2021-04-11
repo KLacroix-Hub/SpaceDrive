@@ -1,0 +1,35 @@
+body{
+
+    margin: 0;
+    background: linear-gradient(116deg, #8909AD 0 20%,#1F08A2 50% 100%);
+  
+}
+
+.header{
+
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 60px;
+
+}
+
+.logo > a{
+
+    text-decoration: none;
+}
+
+.Space{
+
+    font-family: museo-slab;
+    font-weight: 500;
+    font-size: 30pt;
+    color: white;
+}
+
+.Drive{
+
+    font-family: museo-slab;
+    font-weight: 900;
+    font-size: 30pt;
+    color: white;
+}
