@@ -14,6 +14,14 @@ H1{
     color: white;
 }
 
+H2{
+
+    font-family: Museo-slab;
+    font-weight: 700;
+    font-size: 35pt;
+    color: white;
+}
+
 p{
     font-family: Poppins, sans-serif;
     font-size: 16pt;
@@ -25,7 +33,7 @@ a{
     text-decoration: none;
 }
 
-.First_section,.Second_section,.Third_section,.Fourth_section,.Fifth_section,.Sixth_section{
+.First_section,.Second_section,.Fourth_section,.Fifth_section,.Sixth_section{
     margin-left: 160px;
     margin-right: 160px;
 }
@@ -83,7 +91,7 @@ a{
 
 .First_section{
     display: grid;
-    grid-template-columns: 600px 400px;
+    grid-template-columns: 700px 500px;
 }
 
 .Presentation_gauche{
@@ -194,6 +202,10 @@ input{
     margin-top: 40px;
 }
 
+.bold{
+    font-weight: bold;
+}
+
 .box_presentation{
 
     display: grid;
@@ -237,4 +249,46 @@ input{
     font-size: 13pt;
     line-height: 2;
     margin-top: -5px;
+}
+
+.Third_section{
+
+    background-image: url(../img/Fond_section3.svg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+    height: 800px;
+}
+
+.Third_section > div{
+
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.Third_section > div > p{ 
+
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    font-size: 14pt;
+    line-height: 36px;
+}
+
+.Third_section > div >  a > div {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 33px;
+    background: rgba(216, 216, 216, 0.29);
+    color: white;
+    font-family: Poppins,sans-serif;
+    font-weight: 600;
+    margin-top: 45px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .1);
 }
