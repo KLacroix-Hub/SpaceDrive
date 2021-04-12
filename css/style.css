@@ -6,6 +6,11 @@ body{
     background-repeat: no-repeat;
 }
 
+ul{
+
+    list-style: none;
+}
+
 H1{
 
     font-family: Museo-slab;
@@ -20,6 +25,7 @@ H2{
     font-weight: 700;
     font-size: 35pt;
     color: white;
+    
 }
 
 p{
@@ -33,7 +39,7 @@ a{
     text-decoration: none;
 }
 
-.First_section,.Second_section,.Fourth_section,.Sixth_section{
+.First_section,.Second_section,.Fourth_section{
     margin-left: 160px;
     margin-right: 160px;
 }
@@ -430,3 +436,71 @@ input{
     width: 90%;
 
 }
+
+.Sixth_section{
+    background-image: url(../img/Fond_section6.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Sixth_section > div{
+    margin-right: 160px;
+    margin-left: 160px;
+    height: 1000px;
+}
+
+.Choose_your_plan{
+    display: flex;
+    flex-direction: column;
+}
+
+.Choose_your_plan > h2 {
+
+    margin: 0;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: Museo-slab, sans-serif;
+    font-weight: 900;
+    
+
+}
+
+.Choose_your_plan > p{
+    text-align: center;
+    font-size: 14pt;
+
+}
+
+.Plan_list{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    text-align: center;
+    column-gap: 60px;
+}
+
+.Offre{
+
+    width: 100%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.Offre > h5{
+
+    font-family:Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 18pt;
+    color: #706A93;
+}
+
+.Offre > h1 {
+    color: #151010;
+    font-family: Museo-slab, sans-serif;
+}
+
+
+
+
+
